@@ -19,6 +19,19 @@ nav > a{
     width: 70px;
     height: 70px;
 }
+/* INTRO */
+.div_img{
+    width: 240px;
+    height: 240px;
+}
+.div_img02{
+    width: 230px;
+    height: 230px;
+}
+#keyton{
+    width: 220px;
+    height: 220px;
+}
 
 /* SECT_HABI */
 .div_habi{

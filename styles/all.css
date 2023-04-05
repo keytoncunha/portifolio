@@ -86,18 +86,15 @@ p{
     padding: 30px 20px;
 }
 .div_img{
-    width: 240px;
-    height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--cor4);
     border-radius: 50%;
     margin-bottom: 40px;
+    box-shadow: 0px 0px 10px #012340;
 }
 .div_img02{
-    width: 230px;
-    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,8 +102,6 @@ p{
     border-radius: 50%;
 }
 #keyton{
-    width: 220px;
-    height: 220px;
     border-radius: 50%;
 }
 .intro > h1{

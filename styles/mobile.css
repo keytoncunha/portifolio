@@ -41,6 +41,19 @@ nav > a{
 .menu_none{
     display: none;
 }
+/* INTRO */
+.div_img{
+    width: 230px;
+    height: 230px;
+}
+.div_img02{
+    width: 220px;
+    height: 220px;
+}
+#keyton{
+    width: 210px;
+    height: 210px;
+}
 .redes{
     width: 60px;
     height: 60px;
