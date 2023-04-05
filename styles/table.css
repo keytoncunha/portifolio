@@ -6,10 +6,8 @@
 
 nav{
     height: 100%;
-    /* width: 50%; */
     align-items: center;
     justify-content: space-evenly;
-    /* background-color: red; */
 }
 nav > a{
     color: var(--cor4);

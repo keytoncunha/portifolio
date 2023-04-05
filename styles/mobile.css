@@ -31,6 +31,7 @@ nav{
     text-shadow: 0px 0px 3px #0000007d;
 }
 nav > a{
+    color: #000;
     padding: 5px;
     margin: 5px;
 }
