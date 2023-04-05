@@ -1,0 +1,80 @@
+
+
+nav{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 230px;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor4);
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #0000004a;
+}
+#cancel{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    color: var(--cor1);
+    font-size: 2em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+#cancel:hover{
+    font-weight: 700;
+    text-shadow: 0px 0px 3px #0000007d;
+}
+nav > a{
+    padding: 5px;
+    margin: 5px;
+}
+#burguer{
+    font-size: 2em;
+    cursor: pointer;
+}
+.menu_none{
+    display: none;
+}
+.redes{
+    width: 60px;
+    height: 60px;
+}
+/* SECT_HABI */
+.div_habi{
+    flex-direction: column;
+}
+.div_habi > .habilidades{
+    margin: 20px;
+}
+
+/*  SECT_CERT   */
+.sect_cert{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.div_img_cert{
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 20px;
+
+    padding: 20px;
+}
+.img_cert{
+    width: 100%;
+    flex: 0 0 80%;
+    scroll-snap-type: mandatory;
+}
+/* SECT_PROJ */
+.div_img_proj{
+    flex-direction: row;
+    
+}
+.div_img_proj > a{
+    width: 40%;
+}

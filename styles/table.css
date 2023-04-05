@@ -1,0 +1,45 @@
+
+
+#burguer, #cancel{
+    display: none;
+}
+
+nav{
+    height: 100%;
+    /* width: 50%; */
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+nav > a{
+    color: var(--cor4);
+    margin: 0px 15px;
+}
+.redes{
+    width: 70px;
+    height: 70px;
+}
+
+/* SECT_HABI */
+.div_habi{
+    flex-direction: row;
+}
+.div_habi > .habilidades{
+    margin: 20px 30px;
+}
+
+/* SECT_CERT */
+.div_img_cert{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.img_cert{
+    width: 40%;
+    margin: 10px;
+}
+/* SECT_PROJ */
+.div_img_proj > a{
+    width: 30%;
+}
