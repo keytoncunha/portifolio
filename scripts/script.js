@@ -12,12 +12,8 @@ cancel.addEventListener('click',()=>{
 burguer.addEventListener('click',()=>{
     nav.classList.remove('menu_none')
 })
-window.addEventListener('mousemove',()=>{
+nav.addEventListener('mouseleave',()=>{
     if(window.innerWidth < 768){
         nav.setAttribute('class','menu_none')
     }
-    
-})
-nav.addEventListener('mousemove',(evt)=>{
-    evt.stopPropagation()
 })
