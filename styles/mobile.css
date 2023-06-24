@@ -66,29 +66,3 @@ nav > a{
 .div_habi > .habilidades{
     margin: 20px;
 }
-
-/*  SECT_CERT   */
-.sect_cert{
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.div_img_cert{
-    flex-direction: row;
-    overflow-x: scroll;
-    gap: 20px;
-
-    padding: 20px;
-}
-.img_cert{
-    width: 100%;
-    flex: 0 0 80%;
-    scroll-snap-type: mandatory;
-}
-/* SECT_PROJ */
-.div_img_proj{
-    flex-direction: row;
-    
-}
-.div_img_proj > a{
-    width: 40%;
-}

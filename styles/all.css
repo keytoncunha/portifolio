@@ -266,45 +266,11 @@ section{
 img{
     width: 100%;
 }
-/* SECT_CERT */
-.sect_cert{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: var(--cor2);
-    padding: 25px 0px;
-}
-.div_img_cert{
-    width: 100%;
-    display: flex;
-    margin-top: 20px;
-}
-.img_cert{
-    border: 2px solid var(--cor1);
-    border-radius: 15px;
-    box-shadow: 0px 0px 8px #00000071;
-}
 /* SECT_PROJ */
 .sect_proj{
     display: flex;
     flex-direction: column;
     background-color: var(--cor4);
-}
-.div_img_proj{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.div_img_proj > a{
-    margin: 20px 5px;
-}
-.img_proj{
-    width: 100%;
-    border: 2px solid var(--cor1);
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px #0000009e;
 }
 /* FOOTER */
 footer{

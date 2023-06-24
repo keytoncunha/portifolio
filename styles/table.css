@@ -39,18 +39,3 @@ nav > a{
     margin: 20px 30px;
 }
 
-/* SECT_CERT */
-.div_img_cert{
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    justify-content: space-evenly;
-}
-.img_cert{
-    width: 40%;
-    margin: 10px;
-}
-/* SECT_PROJ */
-.div_img_proj > a{
-    width: 30%;
-}
