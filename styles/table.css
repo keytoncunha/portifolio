@@ -32,13 +32,6 @@ nav > a{
 }
 
 /* SECT_HABI */
-.div_habi{
-    flex-direction: row;
-}
-.div_habi > .habilidades{
-    margin: 20px 30px;
-}
-
 
 /* SECT_PROJ */
 .figures{
@@ -49,7 +42,4 @@ nav > a{
 }
 .figures figure{
     width: 40%;
-}
-.linkProj a{
-    padding: 3px 10px;
 }

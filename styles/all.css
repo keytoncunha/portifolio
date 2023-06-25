@@ -245,27 +245,25 @@ section{
 }
 .div_habi{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
     padding: 20px ;
 }
-.div_habi > .habilidades{
-    width: 150px;
-    background-color: var(--cor1);
+.div_habi .habilidades{
     color: var(--cor4);
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.3rem;
     text-align: center;
-    padding: 5px 10px;
-    border: 2px solid var(--cor4);
-    border-radius: 20px;
 }
-
+.div_habi div{
+    margin-bottom: 20px;
+}
+.div_habi p{
+    max-width: 500px;
+    color: var(--cor4);
+    margin: auto;
+}
 img{
     width: 100%;
 }
+
 /* SECT_PROJ */
 .sect_proj{
     width: 100%;
@@ -274,7 +272,6 @@ img{
 .figures{
     width: 100%;
     display: flex;
-    /* background-color: #e8e3e3; */
     padding-top: 20px;
 }
 .figures figure{
@@ -291,6 +288,7 @@ img{
     padding: 10px;
 }
 .figures figcaption h3{
+    font-size: 1.5rem;
     font-variant: small-caps;
     text-align: center;
     text-decoration: underline;
@@ -305,6 +303,7 @@ img{
 }
 .linkProj a{
     color: var(--cor5);
+    padding: 3px 10px;
     border: 2px solid var(--cor4);
     border-radius: 13px;
     transition: .3s;
