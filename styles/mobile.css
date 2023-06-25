@@ -61,7 +61,6 @@ nav > a{
 }
 /* SECT_HABI */
 
-
 /* SECT_PROJ */
 .figures{
     flex-direction: column;
@@ -70,6 +69,6 @@ nav > a{
     gap: 20px;
 }
 .figures figure{
-    width: 80%;
+    width: 90%;
     max-width: 460px;
 }
