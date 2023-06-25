@@ -300,6 +300,7 @@ img{
 .linkProj{
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
 }
 .linkProj a{
     color: var(--cor5);
