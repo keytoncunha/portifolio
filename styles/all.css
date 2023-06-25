@@ -7,7 +7,7 @@
     --cor1: #012340;
     --cor2: #022859;
     --cor3: #73A2BF;
-    --cor4: #FFFFFF;
+    --cor4: #FEFEFE;
 }
 
 *{
@@ -268,9 +268,54 @@ img{
 }
 /* SECT_PROJ */
 .sect_proj{
+    width: 100%;
+    background-color: var(--cor4);
+}
+.figures{
+    width: 100%;
+    display: flex;
+    /* background-color: #e8e3e3; */
+    padding-top: 20px;
+}
+.figures figure{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    box-shadow: 0px 0px 15px #0f0f0fa8;
+}
+.figures figure img{
+    width: 100%;
+}
+.figures figcaption{
     display: flex;
     flex-direction: column;
+    padding: 10px;
+}
+.figures figcaption h3{
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: underline;
+}
+.figures figcaption p{
+    text-indent: 0px;
+    text-align: justify;
+}
+.linkProj{
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkProj a{
+    color: var(--cor5);
+    border: 2px solid var(--cor4);
+    border-radius: 13px;
+    transition: .3s;
+}
+.linkProj a:hover{
     background-color: var(--cor4);
+    color: var(--cor1);
+}
+.linkProj a span{
+    position: relative;
+    transform: translateY(5px);
 }
 /* FOOTER */
 footer{

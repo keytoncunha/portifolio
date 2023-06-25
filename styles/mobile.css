@@ -66,3 +66,18 @@ nav > a{
 .div_habi > .habilidades{
     margin: 20px;
 }
+
+/* SECT_PROJ */
+.figures{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.figures figure{
+    width: 80%;
+    max-width: 460px;
+}
+.linkProj a{
+    padding: 3px 5px;
+}

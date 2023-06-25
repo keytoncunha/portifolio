@@ -39,3 +39,17 @@ nav > a{
     margin: 20px 30px;
 }
 
+
+/* SECT_PROJ */
+.figures{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.figures figure{
+    width: 40%;
+}
+.linkProj a{
+    padding: 3px 10px;
+}

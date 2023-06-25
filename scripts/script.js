@@ -1,7 +1,4 @@
-
-
 // CONNFIGURAÇÕES MENU
-
 const cancel=window.document.querySelector("#cancel")
 const burguer=window.document.querySelector("#burguer")
 const nav=window.document.querySelector("#nav")
